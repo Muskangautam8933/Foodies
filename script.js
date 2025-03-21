@@ -22,7 +22,7 @@ async function showData(){
       console.log(meals[i].strMealThumb);
       console.log(meals[i].strMeal);
       const a = document.createElement("a");
-      a.href =  `./respi.html?mealId=${meals[i].idMeal}`; // replace with actual link when ready
+      a.href =  `./recipe.html?mealId=${meals[i].idMeal}`; // replace with actual link when ready
       a.classList.add("card");
       const img = document.createElement("img");
       img.src = meals[i].strMealThumb;
